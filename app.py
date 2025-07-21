@@ -7,7 +7,7 @@ import tensorflow as tf  # To download the MNIST dataset
 
 # =====================================================================================
 # Load or Download and save dataset
-DATA_FILE = 'dataset/mnist_saved.npz'  # Define the filename to save/load MNIST data
+DATA_FILE = 'dataset/mnist_keras_saved.npz'  # Define the filename to save/load MNIST data
 
 # Check if the MNIST data file already exists locally
 if not os.path.exists(DATA_FILE):
